@@ -1,8 +1,19 @@
-h1 {color: mediumvioletred ;}
-img {width: 400px;}
+h1, h2, h3, h4 {color: rgb(44, 44, 44) ;}
+img {
+        float: right;
+        width: 400px;
+}
+.container{
+        background-image: url(https://mott.pe/noticias/wp-content/uploads/2019/09/Lenguaje-de-programaci%C3%B3n-de-JavaScript-para-desarrollo-web-front-end-1.png)
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+}
 #thirdDiv {
         height: 600px;
-        width: 500px;
+        max-width: 500px;
+        margin: 0 auto;
         background-color: salmon;
         padding: 50px;
         border-width: 15px;
@@ -12,6 +23,6 @@ img {width: 400px;}
         
 #spanId {
         font-size: 18px;
-        margin: 50px;
+        margin: 0 auto;
                    
         }
